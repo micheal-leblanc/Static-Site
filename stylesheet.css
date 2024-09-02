@@ -1,7 +1,9 @@
-body {
-    background-color: 241, 255, 250 ;
+body{
     color: 15, 17, 8;
     font-family: Roboto;
+    background-image: url(media/nh-landing-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navigation {
@@ -11,7 +13,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 150px;
     color: 15, 17, 8;
 }
 
