@@ -1,9 +1,10 @@
-body{
-    color: 15, 17, 8;
+body {
     font-family: Roboto;
     background-image: url(media/nh-landing-page.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation {
@@ -21,7 +22,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 22px;
+    font-size: xx-large;
     font-weight: bold;
 }
 
@@ -30,13 +31,14 @@ body{
     float: left;
 }
 
-.navigation-right nav {
+.navigation-right nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-    font-size: 16px;
+    font-size: x-large;
     font-weight: bold;
+    list-style-type: none;
 }
 
 .navigation-right a {
@@ -46,4 +48,41 @@ body{
 
 .navigation-right a:hover {
     color: #ffe600;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.table-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.table-info th {
+    width: 220px;
+}
+
+.table-info td {
+    width: 220px;
+}
+
+.footer {
+    background-color: #0f0f1870;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: rgba(240, 248, 255, 0.384);
+    margin: 0;
+}
+
+.footer img {
+    position: relative;
+    height: 30px;
 }
