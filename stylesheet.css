@@ -71,6 +71,18 @@ body {
     width: 220px;
 }
 
+.call-to-action form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.301);
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 .footer {
     background-color: #0f0f1870;
     position: absolute;
