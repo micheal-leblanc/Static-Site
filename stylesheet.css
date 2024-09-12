@@ -71,7 +71,7 @@ body {
     width: 220px;
 }
 
-.call-to-action form{
+#form{
     display: flex;
     flex-direction: column;
     justify-content: center;
